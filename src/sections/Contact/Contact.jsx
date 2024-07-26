@@ -36,7 +36,7 @@ function Contact() {
           <textarea
             name="message"
             id="message"
-            placeholder="Mensaje"
+            placeholder="Escribeme , no tardare en responder ..."
             required></textarea>
         </div>
         <input className="hover btn" type="submit" value="Submit" />
