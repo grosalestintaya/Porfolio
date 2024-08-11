@@ -25,7 +25,7 @@ function Contact() {
             type="text"
             name="email"
             id="email"
-            placeholder="Email"
+            placeholder="Email de destino"
             required
           />
         </div>
@@ -39,10 +39,16 @@ function Contact() {
             placeholder="Escribeme , no tardare en responder ..."
             required></textarea>
         </div>
-        <input className="hover btn" type="submit" value="Submit" />
+        <input className="hover btn"  type="submit" value="Submit" />
       </form>
     </section>
   );
 }
 
+
+
+
+
+
 export default Contact;
+
